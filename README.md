@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hi There!👋🏻<br> 👋 I'm Mohamed
+Hi There!👋🏻<br>  I'm Mohamed
 
 💻 **Junior Web Developer**  
 Passionate about building modern, efficient, and scalable web applications.  
