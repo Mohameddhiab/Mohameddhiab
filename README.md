@@ -1,6 +1,14 @@
 # 💫 About Me:
-Hi There!👋🏻<br>Young, passionate web developer with a solid grasp of fundamentals. Committed to creating modern, effective solutions and continuously developing technical skills to contribute to innovative IT projects.
+Hi There!👋🏻<br> 👋 I'm Mohamed
 
+💻 **Junior Web Developer**  
+Passionate about building modern, efficient, and scalable web applications.  
+I have a solid foundation in web development fundamentals and I’m continuously learning to improve my skills and contribute to innovative IT projects.
+
+- 🎓 Young and motivated web developer
+- 🧠 Strong understanding of web fundamentals
+- 🔍 Curious, autonomous, and always eager to learn
+- 🎯 Looking to grow through real-world projects and challenges
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/mohamed-dhiab/) 
