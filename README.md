@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hi There!👋🏻<br>I am Mohamed Dhiab from Ghlissia-Douz, Tunisia.<br>I am a passionate web developer with a strong focus on front-end development. I love creating dynamic and responsive web applications that provide a great user experience.<br>I have experience in HTML, CSS, JavaScript, and React, and I am always eager to learn new technologies and improve my skills.
+Hi There!👋🏻<br>Young, passionate web developer with a solid grasp of fundamentals. Committed to creating modern, effective solutions and continuously developing technical skills to contribute to innovative IT projects.
 
 
 ## 🌐 Socials:
