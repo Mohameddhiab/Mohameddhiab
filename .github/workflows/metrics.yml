@@ -1,0 +1,34 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # tous les jours à minuit UTC
+  workflow_dispatch: {}
+  push:
+    branches: [ main ]
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+          # --- Look & feel ---
+          theme: github-dark
+          config_display: large
+          config_timezone: Africa/Tunis
+
+          # --- Contenu de la card ---
+          base: header, activity, community, repositories, metadata
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 0%
+          plugin_lines: yes
+          plugin_lines_sections: base
