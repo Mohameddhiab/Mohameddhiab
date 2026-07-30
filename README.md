@@ -226,7 +226,6 @@
       </ul>
     </td>
     <td width="45%" align="center">
-      <!-- 🎞️ Tu peux remplacer ce GIF par ton préféré (giphy.com / tenor.com) -->
       <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="330" alt="coding gif" />
     </td>
   </tr>
@@ -529,16 +528,19 @@
 
 <br><br>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Mohameddhiab&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9A7&icon_color=00C9A7&text_color=c9d1d9" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohameddhiab&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9A7&text_color=c9d1d9" />
+<!-- CORRECTION : ajout de cache_seconds pour éviter le rate-limit Vercel -->
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Mohameddhiab&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9A7&icon_color=00C9A7&text_color=c9d1d9&cache_seconds=86400&include_all_commits=true" alt="GitHub Stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohameddhiab&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9A7&text_color=c9d1d9&cache_seconds=86400" alt="Top Languages" />
 
 <br>
 
-<img src="https://nirzak-streak-stats.vercel.app/?user=Mohameddhiab&theme=tokyonight&hide_border=true&background=0D1117&ring=00C9A7&fire=FF6B9D&currStreakLabel=00C9A7" />
+<!-- CORRECTION : instance officielle Heroku plus stable que nirzak-streak-stats -->
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Mohameddhiab&theme=tokyonight&hide_border=true&background=0D1117&ring=00C9A7&fire=FF6B9D&currStreakLabel=00C9A7" alt="GitHub Streak" />
 
 <br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Mohameddhiab&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00C9A7&line=FF6B9D&point=FFD700&area=true&area_color=00C9A7" width="100%" />
+<!-- CORRECTION : cache_seconds ajouté -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Mohameddhiab&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00C9A7&line=FF6B9D&point=FFD700&area=true&area_color=00C9A7&cache_seconds=86400" width="100%" alt="Contribution Graph" />
 
 </div>
 
@@ -624,12 +626,16 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Mohameddhiab&theme=tokyonight&no-frame=true&no-bg=true&row=2&column=4&margin-w=15&margin-h=15" width="100%" />
+  <!-- CORRECTION : cache_seconds=0 pour forcer le refresh + alt tag -->
+  <img 
+    src="https://github-profile-trophy.vercel.app/?username=Mohameddhiab&theme=tokyonight&no-frame=true&no-bg=true&row=2&column=4&margin-w=15&margin-h=15&cache_seconds=0" 
+    width="100%" 
+    alt="GitHub Trophies" 
+  />
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--  CONTRIBUTION SNAKE — dark / light mode                     -->
 <!-- ═══════════════════════════════════════════════════════════ -->
@@ -692,33 +698,20 @@ jobs:
 
 </details>
 
-<br>
-
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--  DEV QUOTE + ANIME GIF                                      -->
 <!-- ═══════════════════════════════════════════════════════════ -->
-
-## ✨ Random Dev Quote
-
+✨ Random Dev Quote
 <div align="center">
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
-
-<br>
-
-<!-- 🎞️ GIF anime — remplace par ton préféré si tu veux -->
 <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="420" alt="anime coding gif" />
-
 </div>
-
-<br>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--  FOOTER                                                     -->
 <!-- ═══════════════════════════════════════════════════════════ -->
-
 <div align="center">
-
 <svg width="100%" height="140" viewBox="0 0 1000 140" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="footerGrad" x1="0" y1="0" x2="100%" y2="0">
@@ -727,15 +720,13 @@ jobs:
       <stop offset="100%" stop-color="#FFD700" />
     </linearGradient>
   </defs>
-
   <!-- Animated waves -->
-  <path d="M0,80 Q125,30 250,80 T500,80 T750,80 T1000,80 L1000,140 L0,140 Z" fill="url(#footerGrad)" opacity="0.06">
+<path d="M0,80 Q125,30 250,80 T500,80 T750,80 T1000,80 L1000,140 L0,140 Z" fill="url(#footerGrad)" opacity="0.06">
     <animate attributeName="d" values="M0,80 Q125,30 250,80 T500,80 T750,80 T1000,80 L1000,140 L0,140 Z;M0,80 Q125,110 250,80 T500,80 T750,80 T1000,80 L1000,140 L0,140 Z;M0,80 Q125,30 250,80 T500,80 T750,80 T1000,80 L1000,140 L0,140 Z" dur="6s" repeatCount="indefinite" />
   </path>
   <path d="M0,100 Q125,50 250,100 T500,100 T750,100 T1000,100 L1000,140 L0,140 Z" fill="url(#footerGrad)" opacity="0.04">
     <animate attributeName="d" values="M0,100 Q125,50 250,100 T500,100 T750,100 T1000,100 L1000,140 L0,140 Z;M0,100 Q125,130 250,100 T500,100 T750,100 T1000,100 L1000,140 L0,140 Z;M0,100 Q125,50 250,100 T500,100 T750,100 T1000,100 L1000,140 L0,140 Z" dur="8s" repeatCount="indefinite" />
   </path>
-
   <!-- Running football (rolls correctly along the ground) -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="-30,115;1030,115" dur="12s" repeatCount="indefinite" />
@@ -747,15 +738,13 @@ jobs:
       <polygon points="8,-4 7,-10 2,-11 0,-5 5,-2" fill="#2d1810" />
     </g>
   </g>
-
-  <text x="500" y="50" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8b949e" text-anchor="middle">
+<text x="500" y="50" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8b949e" text-anchor="middle">
     🚀 Always shipping — code, creativity, and passion
   </text>
   <text x="500" y="70" font-family="'Segoe UI', sans-serif" font-size="12" fill="#00C9A7" text-anchor="middle" opacity="0.6">
     ✨ Mohamed Dhiab — 2026
   </text>
 </svg>
-
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0d1117,50:1a0533,100:0a0a0f" alt="footer" />
-
 </div>
+
