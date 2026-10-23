@@ -1,0 +1,29 @@
+<svg width="900" height="340" viewBox="0 0 900 340" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="qb" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1a1a2e"/><stop offset="100%" stop-color="#0d1117"/></linearGradient></defs>
+  <rect x="5" y="5" width="890" height="330" rx="16" fill="url(#qb)" stroke="#333"/>
+  <text x="450" y="40" font-family="Segoe UI,sans-serif" font-size="18" fill="#c9d1d9" text-anchor="middle" font-weight="bold">📜 MISSION BOARD</text>
+  <text x="450" y="58" font-family="Segoe UI,sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">🏁 Current Sprint — Season 2026</text>
+  <line x1="30" y1="70" x2="870" y2="70" stroke="#333"/>
+  <g font-family="Segoe UI,sans-serif">
+    <g><rect x="30" y="85" width="830" height="50" rx="8" fill="#f74c00" opacity=".1" stroke="#f74c00" stroke-opacity=".4"/><rect x="30" y="85" width="40" height="50" rx="8" fill="#f74c00" opacity=".25"/>
+      <text x="50" y="116" font-size="13" fill="#ff7a3d" text-anchor="middle" font-weight="bold">S</text>
+      <text x="90" y="108" font-size="14" fill="#c9d1d9" font-weight="bold">🦀 Rust Systems &amp; CLI Tooling</text>
+      <text x="90" y="125" font-size="11" fill="#8b949e">Building fast developer tools &amp; AI-powered CLIs</text>
+      <rect x="720" y="98" width="120" height="24" rx="12" fill="#f74c00" opacity=".18"/><text x="780" y="114" font-size="10" fill="#ff7a3d" text-anchor="middle">🚧 In Progress<animate attributeName="opacity" values="1;.4;1" dur="2s" repeatCount="indefinite"/></text></g>
+    <g><rect x="30" y="145" width="830" height="50" rx="8" fill="#FFD700" opacity=".08" stroke="#FFD700" stroke-opacity=".3"/><rect x="30" y="145" width="40" height="50" rx="8" fill="#FFD700" opacity=".2"/>
+      <text x="50" y="176" font-size="13" fill="#FFD700" text-anchor="middle" font-weight="bold">A</text>
+      <text x="90" y="168" font-size="14" fill="#c9d1d9" font-weight="bold">⚙️ CI/CD &amp; GitHub Actions Automation</text>
+      <text x="90" y="185" font-size="11" fill="#8b949e">Pipelines, releases, workflows — ship on autopilot</text>
+      <rect x="720" y="158" width="120" height="24" rx="12" fill="#FFD700" opacity=".15"/><text x="780" y="174" font-size="10" fill="#FFD700" text-anchor="middle">🔧 Automating</text></g>
+    <g><rect x="30" y="205" width="830" height="50" rx="8" fill="#FF6B9D" opacity=".08" stroke="#FF6B9D" stroke-opacity=".3"/><rect x="30" y="205" width="40" height="50" rx="8" fill="#FF6B9D" opacity=".2"/>
+      <text x="50" y="236" font-size="13" fill="#FF6B9D" text-anchor="middle" font-weight="bold">B</text>
+      <text x="90" y="228" font-size="14" fill="#c9d1d9" font-weight="bold">🤖 AI Agents &amp; Intelligent Tooling</text>
+      <text x="90" y="245" font-size="11" fill="#8b949e">Exploring the AI agent ecosystem</text>
+      <rect x="720" y="218" width="120" height="24" rx="12" fill="#FF6B9D" opacity=".15"/><text x="780" y="234" font-size="10" fill="#FF6B9D" text-anchor="middle">🧪 Exploring</text></g>
+    <g><rect x="30" y="265" width="830" height="50" rx="8" fill="#00C9A7" opacity=".08" stroke="#00C9A7" stroke-opacity=".3"/><rect x="30" y="265" width="40" height="50" rx="8" fill="#00C9A7" opacity=".2"/>
+      <text x="50" y="296" font-size="13" fill="#00C9A7" text-anchor="middle" font-weight="bold">C</text>
+      <text x="90" y="288" font-size="14" fill="#c9d1d9" font-weight="bold">🌍 Open Source &amp; Global Products</text>
+      <text x="90" y="305" font-size="11" fill="#8b949e">Contributing back — one PR at a time</text>
+      <rect x="720" y="278" width="120" height="24" rx="12" fill="#00C9A7" opacity=".15"/><text x="780" y="294" font-size="10" fill="#00C9A7" text-anchor="middle">🌱 Growing</text></g>
+  </g>
+</svg>

@@ -1,0 +1,69 @@
+<svg width="1000" height="360" viewBox="0 0 1000 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a0f"/><stop offset="45%" stop-color="#0d1117"/>
+      <stop offset="75%" stop-color="#1a0533"/><stop offset="100%" stop-color="#0a0a0f"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00C9A7"/><stop offset="35%" stop-color="#FFD700"/>
+      <stop offset="70%" stop-color="#FF6B9D"/><stop offset="100%" stop-color="#00C9A7"/>
+    </linearGradient>
+    <radialGradient id="shadow"><stop offset="0%" stop-color="#000" stop-opacity=".55"/><stop offset="100%" stop-color="#000" stop-opacity="0"/></radialGradient>
+    <radialGradient id="chakra"><stop offset="0%" stop-color="#e0f7ff"/><stop offset="45%" stop-color="#38bdf8"/><stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1000" height="360" rx="16" fill="url(#bg)"/>
+  <g stroke="#00C9A7" stroke-width=".5" opacity=".06">
+    <line x1="0" y1="90" x2="1000" y2="90"/><line x1="0" y1="180" x2="1000" y2="180"/><line x1="0" y1="270" x2="1000" y2="270"/>
+  </g>
+  <!-- speed lines -->
+  <g stroke-linecap="round" opacity=".3">
+    <line x1="60" y1="360" x2="60" y2="300" stroke="#00C9A7"><animate attributeName="y1" values="380;240" dur="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0" dur="1.2s" repeatCount="indefinite"/></line>
+    <line x1="110" y1="360" x2="110" y2="290" stroke="#FF6B9D"><animate attributeName="y1" values="400;220" dur=".9s" repeatCount="indefinite"/><animate attributeName="opacity" values=".5;0" dur=".9s" repeatCount="indefinite"/></line>
+    <line x1="30" y1="360" x2="30" y2="310" stroke="#FFD700"><animate attributeName="y1" values="390;260" dur="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values=".5;0" dur="1.5s" repeatCount="indefinite"/></line>
+  </g>
+  <!-- ball -->
+  <ellipse cx="170" cy="318" rx="38" ry="8" fill="url(#shadow)"><animate attributeName="rx" values="38;22;38" dur="2s" repeatCount="indefinite"/></ellipse>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-60;0,0" dur="2s" repeatCount="indefinite" calcMode="spline" keySplines=".33 0 .66 1;.33 0 .66 1"/>
+    <g transform="translate(170,272)"><g>
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="3s" repeatCount="indefinite"/>
+      <circle r="42" fill="#f4f4f4"/>
+      <polygon points="0,-16 -15,-5 -9,13 9,13 15,-5" fill="#111"/>
+      <polygon points="-26,-10 -21,-26 -6,-28 0,-16 -15,-5" fill="#111"/>
+      <polygon points="26,-10 21,-26 6,-28 0,-16 15,-5" fill="#111"/>
+      <polygon points="-30,8 -25,26 -10,30 0,16 -9,13" fill="#111"/>
+      <polygon points="30,8 25,26 10,30 0,16 9,13" fill="#111"/>
+    </g></g>
+  </g>
+  <!-- chakra orb (original energy sphere) -->
+  <g transform="translate(870,170)">
+    <circle r="85" fill="url(#chakra)" opacity=".5"><animate attributeName="r" values="75;95;75" dur="2.4s" repeatCount="indefinite"/></circle>
+    <g filter="url(#glow)">
+      <g><animateTransform attributeName="transform" type="rotate" values="0;360" dur="2s" repeatCount="indefinite"/>
+        <circle r="52" fill="none" stroke="#7dd3fc" stroke-width="5" stroke-dasharray="40 24" stroke-linecap="round"/></g>
+      <g><animateTransform attributeName="transform" type="rotate" values="360;0" dur="3s" repeatCount="indefinite"/>
+        <circle r="36" fill="none" stroke="#e0f7ff" stroke-width="4" stroke-dasharray="26 18" stroke-linecap="round"/></g>
+      <g><animateTransform attributeName="transform" type="rotate" values="0;360" dur="1.4s" repeatCount="indefinite"/>
+        <circle r="20" fill="none" stroke="#38bdf8" stroke-width="3" stroke-dasharray="14 10" stroke-linecap="round"/></g>
+    </g>
+    <text y="12" font-size="34" text-anchor="middle" fill="#fff" font-family="'Noto Sans JP','Segoe UI',sans-serif" font-weight="900" opacity=".9">忍</text>
+  </g>
+  <!-- title -->
+  <g filter="url(#glow)">
+    <text x="530" y="140" font-family="'Segoe UI','Fira Code',monospace" font-size="46" font-weight="900" fill="url(#title)" text-anchor="middle" letter-spacing="3">SOFTWARE ENGINEER
+      <animate attributeName="opacity" values=".85;1;.85" dur="3s" repeatCount="indefinite"/></text>
+  </g>
+  <text x="530" y="188" font-family="'Noto Sans JP','Segoe UI',sans-serif" font-size="20" fill="#c9d1d9" text-anchor="middle" letter-spacing="7">コード × サッカー × アニメ</text>
+  <rect x="380" y="208" width="300" height="2" rx="1" fill="url(#title)"><animate attributeName="opacity" values=".8;.3;.8" dur="2.5s" repeatCount="indefinite"/></rect>
+  <g font-family="'Segoe UI',sans-serif" font-size="13" text-anchor="middle" font-weight="600">
+    <rect x="360" y="232" width="100" height="28" rx="14" fill="#f74c00" opacity=".18"/><text x="410" y="251" fill="#ff7a3d">Rust 🦀</text>
+    <rect x="474" y="232" width="110" height="28" rx="14" fill="#00C9A7" opacity=".18"/><text x="529" y="251" fill="#00C9A7">TypeScript</text>
+    <rect x="598" y="232" width="110" height="28" rx="14" fill="#FFD700" opacity=".18"/><text x="653" y="251" fill="#FFD700">Actions ⚙️</text>
+  </g>
+  <text x="530" y="305" font-family="'Segoe UI',sans-serif" font-size="14" fill="#8b949e" text-anchor="middle" font-style="italic">Path of the Ninja Developer — never stop shipping</text>
+  <g stroke-width="2" opacity=".35" fill="none">
+    <path d="M20,20V60M20,20H60" stroke="#00C9A7"/><path d="M980,20V60M980,20H940" stroke="#FF6B9D"/>
+    <path d="M20,340V300M20,340H60" stroke="#FFD700"/><path d="M980,340V300M980,340H940" stroke="#00C9A7"/>
+  </g>
+</svg>
